@@ -1,0 +1,151 @@
+body {
+  
+    background-color: rgb(161, 154, 170);
+    background-image: url('Images/backgroundpage.jpg');
+    background-repeat:no-repeat;
+    font-size: 30px;
+    text-align: center;
+}
+
+img#img-anne {   
+    border: 10px solid rgb(6, 58, 78);
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    height: 350px;
+    width: auto;  
+    float: left; 
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+div.formulario {
+    width: 300px;
+    margin: auto;
+    background-color: rgba(208, 196, 219, 0.479);
+    padding: 30px;
+    border-radius: 15px;   
+    text-align: left; 
+    font-size: medium;
+    float:right;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    }
+
+button {
+    background-color: rgb(150, 51, 84);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+div.botones {
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+input {
+    font-size: 15px;
+    padding: 7px 10px;
+    border: 1px solid rgb(190, 127, 54);
+    border-radius: 5px;
+}
+
+div.form-line {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+select {
+    padding: 8px 20px;
+    font-size: 15px;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 208px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+div.columna-1, 
+div.columna-2,
+div.columna-3 {
+    width: 33%;
+    float: left;
+    text-align: justify;
+}
+
+div.columna-2 {
+    background-color: none;
+}
+
+div.testimonio {
+    padding: 30px;
+    text-align: center;
+}
+
+div.testimonio img {
+    height: 280px;
+}
+
+div.clearfix {
+    clear: both;
+}
+
+.shared-panel{
+	overflow: auto;
+}
+.shared-panel span{
+	margin: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.shared {
+	display: inline-block;
+	width: 30px; 
+	height: 30px;
+	margin: 5px 0; 
+	padding: 0; 
+        /* Recurso incluido en la descarga del ejemplo */
+	background: url("shared.png") no-repeat; 
+	float:left;
+	margin-right: 5px; 
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.shared:hover{
+	opacity: 0.7;
+}
+.shared.gp {background-position: 0px 0px; background-color: #E62B34;}
+.shared.tt {background-position: 0px -30px; background-color: #43BDF0;}
+.shared.ce {background-position: 0px -60px; background-color: #8A898D;}
+.shared.wa {background-position: 0px -90px; background-color: #0dc143;}
+.shared.fb {background-position: 0px -120px; background-color: #6081C4;}
+
+.st2{
+   border-radius: 0;
+}
+.st3{
+   border-radius: 5px;
+}
+
+.shared-panel {
+    text-align: left;
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
